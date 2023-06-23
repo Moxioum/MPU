@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+* {
+    background-color: #FFF6F4;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #525FE1;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0;
+    /* 1rem = 16 px  /// un h1 = 2rem normalement  */
+}
+
+body {
+    height: 100%;
+}
+
+#titre-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.titre1 {
+    font-size: 1.5rem;
+    width: 33%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 2px 2px 0px #F86F03;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#ul1 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ul1 li {
+    width: 160px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#ul1 button {
+    width: 160px;
+    height: 50px;
+    background-color: #E8AA42;
+    box-shadow: 2px 2px 0px #E57C23;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+}
+
+#ul1 button:hover {
+    background-color: #E57C23;
+}
+
+#jifouze {
+    color: rgb(128, 68, 0);
+}
