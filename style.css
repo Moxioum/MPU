@@ -71,3 +71,25 @@ p {
 #jifouze {
     color: rgb(128, 68, 0);
 }
+
+/* RESPONSIVE */
+@media screen and (max-width : 1040px) {
+    .titre1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .titre1 {
+        text-indent: -9999px;
+        line-height: 0;
+    }
+
+    .titre1::after {
+        content: "M.P.U";
+        text-indent: 0;
+        display: block;
+        line-height: initial;
+        font-size: 2rem;
+    }
+}
